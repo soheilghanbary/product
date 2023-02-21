@@ -16,7 +16,7 @@ export default function Sidebar() {
         }`}
       ></div>
       <div
-        className={`fixed top-0 right-0 z-30 h-full w-64 bg-secondary p-5 shadow-md duration-300 ${
+        className={`fixed top-0 z-30 h-full w-64 bg-secondary p-5 shadow-md duration-300 md:-right-full lg:-right-full xl:-right-full ${
           sidebar ? "right-0" : "-right-full"
         }`}
       >
@@ -33,7 +33,11 @@ export default function Sidebar() {
           <SidebarItem href="/users" title="کاربران" icon={Icon.Users} />
           <SidebarItem href="/about" title="درباره ما" icon={Icon.Facebook} />
           <SidebarItem href="/faq" title="سوالات متداول" icon={Icon.Feather} />
-          <SidebarItem href="/auth/login" title="ورود / ثبت نام" icon={Icon.LogIn} />
+          <SidebarItem
+            href="/auth/login"
+            title="ورود / ثبت نام"
+            icon={Icon.LogIn}
+          />
         </ul>
       </div>
     </>
@@ -47,7 +51,7 @@ function SidebarItem({ href, title, icon }: any) {
     <Link href={href}>
       <li
         onClick={closeSidebar}
-        className="flex items-center gap-4 rounded-full py-2 px-4 font-medium leading-8 duration-200 ease-in-out hover:pr-6 hover:text-indigo-500"
+        className="flex items-center gap-4 rounded-full py-2 px-4 leading-8 duration-200 ease-in-out hover:pr-6 hover:text-indigo-500"
       >
         <SidebarIcon size={20} />
         {title}
