@@ -1,0 +1,84 @@
+@font-face {
+  font-family: vazir;
+  font-weight: 300;
+  src: url("./vazir/Vazir-Light.woff2");
+}
+
+@font-face {
+  font-family: vazir;
+  font-weight: 400;
+  src: url("./vazir/Vazir-Regular.woff2");
+}
+
+@font-face {
+  font-family: vazir;
+  font-weight: 500;
+  src: url("./vazir/Vazir-Medium.woff2");
+}
+
+@font-face {
+  font-family: vazir;
+  font-weight: 600;
+  src: url("./vazir/Vazir-SemiBold.woff2");
+}
+
+@font-face {
+  font-family: vazir;
+  font-weight: 700;
+  src: url("./vazir/Vazir-Bold.woff2");
+}
+
+@font-face {
+  font-family: vazir;
+  font-weight: 800;
+  src: url("./vazir/Vazir-ExtraBold.woff2");
+}
+
+@font-face {
+  font-family: vazir;
+  font-weight: 900;
+  src: url("./vazir/Vazir-Black.woff2");
+}
+
+/* Nunito Font */
+@font-face {
+  font-family: nunito;
+  font-weight: 300;
+  src: url("./nunito/Nunito-Light.ttf");
+}
+
+@font-face {
+  font-family: nunito;
+  font-weight: 400;
+  src: url("./nunito/Nunito-Regular.ttf");
+}
+
+@font-face {
+  font-family: nunito;
+  font-weight: 500;
+  src: url("./nunito/Nunito-Medium.ttf");
+}
+
+@font-face {
+  font-family: nunito;
+  font-weight: 600;
+  src: url("./nunito/Nunito-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: nunito;
+  font-weight: 700;
+  src: url("./nunito/Nunito-Bold.ttf");
+}
+
+@font-face {
+  font-family: nunito;
+  font-weight: 800;
+  src: url("./nunito/Nunito-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: nunito;
+  font-weight: 900;
+  src: url("./nunito/Nunito-Black.ttf");
+}

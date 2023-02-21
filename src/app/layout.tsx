@@ -1,18 +1,19 @@
-import './globals.css'
+import Layout from "~/components/templates/layout";
+import "~/lib/sass/_app.scss";
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
-      <head />
-      <body>{children}</body>
+      <head>
+        <link rel="stylesheet" href="/fonts/font.css" />
+      </head>
+      <body>
+        <Layout>{children}</Layout>
+      </body>
     </html>
-  )
+  );
 }

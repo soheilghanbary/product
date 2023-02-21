@@ -1,0 +1,7 @@
+.btn {
+  @apply flex items-center justify-center gap-3 rounded-lg border border-indigo-500 bg-indigo-500 py-2 px-4 text-center text-sm font-semibold leading-6 text-white shadow-md duration-150 active:scale-90;
+
+  &.default {
+    @apply border-line bg-primary text-body ring-indigo-400 focus:ring-2;
+  }
+}
